@@ -1,9 +1,7 @@
-- title: Search for the Service Usage API
+- title: Debug Spotlight
   text: |
-    Use the search bar in the API Library to find the **Service Usage API**.
-    Type **Service Usage API** and press Enter.
+    Testing spotlight with the element ID: #pcc-search-container
   highlight:
-    selector: "#pcc-search-container" # Highlights the search bar in the API Library
-    delay: 3000
+    selector: "#pcc-search-container"
   hint: >
-    The search bar is located at the top of the API Library page. Enter "Service Usage API" and hit Enter.
+    This is a test step to verify the spotlight works.
