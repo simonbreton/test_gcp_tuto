@@ -4,14 +4,16 @@ steps:
   - title: Search for the Service Usage API
     text: |
       Use the search bar in the API Library to find the **Service Usage API**.
+      Type **Service Usage API** and press Enter.
     highlight:
-      selector: "input[aria-label='Search']"
+      selector: "#pcc-search-container" # Highlights the search bar in the API Library
     hint: >
-      Enter "Service Usage API" and press Enter.
+      The search bar is located at the top of the API Library page. Enter "Service Usage API" and hit Enter.
+
   - title: Enable the API
     text: |
-      Click the **Enable** button on the Service Usage API page.
+      On the **Service Usage API** page, click the **Enable** button to activate it for your project.
     highlight:
-      selector: "button[aria-label='Enable']"
+      selector: "button[aria-label='Enable']" # Highlights the Enable button on the API page
     hint: >
       If the button says "Enabled," the API is already active.
