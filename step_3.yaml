@@ -7,6 +7,7 @@ steps:
       Type **Service Usage API** and press Enter.
     highlight:
       selector: "#pcc-search-container" # Highlights the search bar in the API Library
+      delay: 4000
     hint: >
       The search bar is located at the top of the API Library page. Enter "Service Usage API" and hit Enter.
 
