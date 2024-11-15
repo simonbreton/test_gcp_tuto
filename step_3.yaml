@@ -1,0 +1,17 @@
+title: Step 3 - Enable the Service Usage API
+description: Enable the Service Usage API for your project.
+steps:
+  - title: Search for the Service Usage API
+    text: |
+      Use the search bar in the API Library to find the **Service Usage API**.
+    highlight:
+      selector: "input[aria-label='Search']"
+    hint: >
+      Enter "Service Usage API" and press Enter.
+  - title: Enable the API
+    text: |
+      Click the **Enable** button on the Service Usage API page.
+    highlight:
+      selector: "button[aria-label='Enable']"
+    hint: >
+      If the button says "Enabled," the API is already active.
