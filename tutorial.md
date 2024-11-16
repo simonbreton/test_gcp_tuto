@@ -4,6 +4,8 @@ This tutorial guides you through configuring Google Cloud Platform (GCP) to prep
 
 ## Step 1: Introduction
 
+<walkthrough-project-setup></walkthrough-project-setup>
+
 Before starting the configuration, verify that you have:
 
 - Proper access to manage APIs and services in your Google Cloud project.
