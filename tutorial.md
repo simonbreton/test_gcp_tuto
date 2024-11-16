@@ -13,8 +13,9 @@ Before starting the configuration, verify that you have:
 In the following steps, we will guide you through:
 
 1. Checking access permissions.
-2. Enabling the required APIs.
-3. Verifying your BigQuery and billing setup.
+2. Enabling the Service Usage API
+3. Check your Ga4 BigQuery Export
+4. Verify your billing status
 
 Once the prerequisites are confirmed, proceed to Step 2 to begin the configuration process.
 
@@ -38,19 +39,19 @@ Use the email filter to quickly find your account.
 
 ---
 
-## Step 3: Navigate to the API Library
+## Step 3: Check Billing Status
 
-Use the search bar in the API Library to find and access the **Service Usage API**.
+Ensure your project has an active billing account.
 
-1. From the [**GCP Homepage**](https://console.cloud.google.com/), click on **API & Services** in the left-hand menu.
-2. Click on **Library**.
-3. Type **Service Usage API** into the search bar and press Enter.
+1. Navigate to [**Billing**](https://console.cloud.google.com/billing)  
 
-<walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
-Highlight the search bar here.
-</walkthrough-spotlight-pointer>
+If you can access your overview page it mean that the billing account is enable. you can move ot the next step.
 
-**Annotation:** The API Library search bar is located at the top of the page and labeled with a magnifying glass icon.
+If you see a dialogue saying ""This project has no billing account" you need to activate your billing account. 
+
+[**Configure your billing account**](https://cloud.google.com/billing/docs/how-to/modify-project)
+
+**Annotation:** Without an active billing account, BigQuery exports and other paid GCP services will not function.
 
 ---
 
@@ -58,33 +59,19 @@ Highlight the search bar here.
 
 Activate the **Service Usage API** to allow the GA4Dataform installer to function.
 
-1. On the **Service Usage API** page, click the **Enable** button.
+1. opem the [**Service Usage API**](https://console.cloud.google.com/marketplace/product/google/serviceusage.googleapis.com)
+2. check if the API is **Enable** button.
 2. Wait for the confirmation that the API has been enabled.
 
-<walkthrough-spotlight-pointer cssSelector="button[aria-label='Enable']">
-Highlight the Enable button here.
+<walkthrough-spotlight-pointer cssSelector=".mp-banner-status-message.ng-star-inserted">
+Highlight the status message element here.
 </walkthrough-spotlight-pointer>
 
 **Annotation:** The Enable button is typically blue and located near the top of the page. Ensure it changes to "Disable" after activation.
 
 ---
 
-## Step 5: Verify API Status
-
-Ensure that the **Service Usage API** is enabled in your project.
-
-1. Return to the **Enabled APIs & Services** page.
-2. Look for **serviceusage.googleapis.com** in the list of enabled APIs.
-
-<walkthrough-spotlight-pointer cssSelector="nav-item-link[title='Enabled APIs & Services']">
-Highlight the Enabled APIs link here.
-</walkthrough-spotlight-pointer>
-
-**Annotation:** Use the search bar on the **Enabled APIs & Services** page if the list is extensive.
-
----
-
-## Step 6: Verify GA4 BigQuery Export Setup
+## Step 5: Verify GA4 BigQuery Export Setup
 
 Confirm that your project includes the necessary GA4 BigQuery export dataset.
 
@@ -100,18 +87,4 @@ Highlight the search bar to locate BigQuery here.
 
 ---
 
-## Step 7: Check Billing Status
 
-Ensure your project has an active billing account.
-
-1. Navigate to **Billing** in the left-hand menu.
-2. Verify that a billing account is linked to your project.
-3. Confirm the status of the billing account is "active."
-
-<walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
-Highlight the search bar to locate Billing here.
-</walkthrough-spotlight-pointer>
-
-**Annotation:** Without an active billing account, BigQuery exports and other paid GCP services will not function.
-
----
