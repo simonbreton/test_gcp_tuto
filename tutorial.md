@@ -25,7 +25,10 @@ Once the prerequisites are confirmed, proceed to Step 2 to begin the configurati
 Ensure that you have the necessary permissions to manage APIs and services within your Google Cloud project.
 
 1. Open the [**IAM & Admin**](https://console.cloud.google.com/iam-admin)
-2. <walkthrough-spotlight-pointer cssSelector="[sandboxuid='4']">Use the email filter to quickly find your account.</walkthrough-spotlight-pointer>
+2.
+<walkthrough-spotlight-pointer cssSelector="[_ngcontent-ng-c2295059878]">
+Use the email filter to quickly find your account.
+</walkthrough-spotlight-pointer>
 4. Verify that your account has one of the following roles:
    - `roles/owner`
    - `roles/editor`
