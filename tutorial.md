@@ -24,17 +24,12 @@ Once the prerequisites are confirmed, proceed to Step 2 to begin the configurati
 
 Ensure that you have the necessary permissions to manage APIs and services within your Google Cloud project.
 
-1. From the [**GCP Homepage**](https://console.cloud.google.com/), locate the left-hand menu.
-2. Click on **IAM & Admin** to open the IAM page.
-3. Use the email filter to quickly find your account.
+1. Open the [**IAM & Admin**](https://console.cloud.google.com/iam-admin)
+2. <walkthrough-spotlight-pointer cssSelector="[sandboxuid='4']">Use the email filter to quickly find your account.</walkthrough-spotlight-pointer>
 4. Verify that your account has one of the following roles:
    - `roles/owner`
    - `roles/editor`
    - `roles/serviceusage.admin`
-
-<walkthrough-spotlight-pointer sandboxuid="4">
-Highlight the email filter option here to quickly locate your account.
-</walkthrough-spotlight-pointer>
 
 **Annotation:** If your account does not have the necessary permissions, contact your GCP administrator to request access.
 
