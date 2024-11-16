@@ -19,7 +19,11 @@ In the following steps, we will guide you through:
 
 Once the prerequisites are confirmed, proceed to Step 2 to begin the configuration process.
 
+<walkthrough-tutorial-duration duration="30"></walkthrough-tutorial-duration>
+
 <walkthrough-footnote>FOOTNOTE_TEXT</walkthrough-footnote>
+
+<walkthrough-enable-apis apis="serviceusage"></walkthrough-enable-apis>
 
 ---
 
@@ -86,6 +90,11 @@ Highlight the search bar to locate BigQuery here.
 </walkthrough-spotlight-pointer>
 
 **Annotation:** If the dataset or tables are missing, ensure that GA4 BigQuery linking is properly configured in the GA4 interface.
+
+## Step 6: Conclusion
+
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
+
 
 ---
 
