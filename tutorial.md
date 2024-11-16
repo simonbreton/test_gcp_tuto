@@ -2,6 +2,12 @@
 
 ## Step 1: Check Permissions
 
+welcome to the tutorial
+
+---
+
+## Step 2: Navigate to the API Library
+
 Ensure that your account has the necessary permissions to use the Service Usage API. 
 
 1. From the [**GCP Homepage**](https://console.cloud.google.com/), navigate to the [**IAM & Admin**](https://console.cloud.google.com/iam-admin?project=_&walkthrough_tutorial=true) section of the console. This will open the IAM page while keeping the tutorial panel active.
@@ -12,10 +18,6 @@ Highlight the email filter option here to quickly locate your account.
 </walkthrough-spotlight-pointer>
 
 **Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the email filter option to simplify searching for your account.
-
----
-
-## Step 2: Navigate to the API Library
 
 Use the search bar in the API Library to find the **Service Usage API**. Type **Service Usage API** and press Enter.
 
