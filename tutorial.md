@@ -8,6 +8,8 @@ Use the search bar in the API Library to find the **Service Usage API**. Type **
 Highlight the search bar here.
 </walkthrough-spotlight-pointer>
 
+**Annotation:** Look for the search bar located at the top of the API Library page. It is labeled with a magnifying glass icon.
+
 ---
 
 ## Step 2: Enable the API
@@ -18,6 +20,8 @@ On the **Service Usage API** page, click the **Enable** button to activate it fo
 Highlight the Enable button here.
 </walkthrough-spotlight-pointer>
 
+**Annotation:** The Enable button is typically blue and located near the top of the API page. Make sure it changes to "Disable" after activation.
+
 ---
 
 ## Step 3: Verify the API is Enabled
@@ -27,6 +31,8 @@ Return to the **Enabled APIs & Services** page to confirm the Service Usage API 
 <walkthrough-spotlight-pointer cssSelector="nav-item-link[title='Enabled APIs & Services']">
 Highlight the Enabled APIs link here.
 </walkthrough-spotlight-pointer>
+
+**Annotation:** Navigate to the "Enabled APIs & Services" page from the left-hand menu. Use the search bar on this page if the list is long.
 
 ---
 
@@ -41,6 +47,8 @@ Ensure that your account has the necessary permissions to use the Service Usage 
 Highlight the search bar to help locate IAM & Admin here.
 </walkthrough-spotlight-pointer>
 
+**Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the search functionality if you cannot locate it directly.
+
 ---
 
 ## Step 5: Check Service Usage API Status
@@ -52,6 +60,8 @@ Highlight the search bar to help locate IAM & Admin here.
 <walkthrough-spotlight-pointer cssSelector="nav-item-link[title='Enabled APIs & Services']">
 Highlight the Enabled APIs link here.
 </walkthrough-spotlight-pointer>
+
+**Annotation:** Double-check the API list for "Service Usage API" to ensure it shows as enabled. You can use the search bar on this page if needed.
 
 ---
 
@@ -65,6 +75,8 @@ Highlight the Enabled APIs link here.
 Highlight the search bar to locate BigQuery here.
 </walkthrough-spotlight-pointer>
 
+**Annotation:** In BigQuery, datasets are listed under your project name. Use the dropdown to expand and view individual datasets.
+
 ---
 
 ## Step 7: Check if Billing is Enabled
@@ -76,5 +88,7 @@ Highlight the search bar to locate BigQuery here.
 <walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
 Highlight the search bar to locate Billing here.
 </walkthrough-spotlight-pointer>
+
+**Annotation:** The Billing section shows all linked billing accounts. Confirm the status is "active" and linked to the correct project.
 
 ---
