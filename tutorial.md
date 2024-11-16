@@ -19,6 +19,8 @@ In the following steps, we will guide you through:
 
 Once the prerequisites are confirmed, proceed to Step 2 to begin the configuration process.
 
+<walkthrough-footnote>FOOTNOTE_TEXT</walkthrough-footnote>
+
 ---
 
 ## Step 2: Check Access Permissions
