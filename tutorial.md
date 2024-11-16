@@ -1,6 +1,21 @@
 # Search for the Service Usage API
 
-## Step 1: Navigate to the API Library
+## Step 1: Check Permissions
+
+Ensure that your account has the necessary permissions to use the Service Usage API. 
+
+1. Navigate to the [**IAM & Admin**](https://console.cloud.google.com/iam-admin) section of the console.
+2. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
+
+<walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
+Highlight the search bar to help locate IAM & Admin here.
+</walkthrough-spotlight-pointer>
+
+**Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the search functionality if you cannot locate it directly.
+
+---
+
+## Step 2: Navigate to the API Library
 
 Use the search bar in the API Library to find the **Service Usage API**. Type **Service Usage API** and press Enter.
 
@@ -12,7 +27,7 @@ Highlight the search bar here.
 
 ---
 
-## Step 2: Enable the API
+## Step 3: Enable the API
 
 On the **Service Usage API** page, click the **Enable** button to activate it for your project.
 
@@ -24,7 +39,7 @@ Highlight the Enable button here.
 
 ---
 
-## Step 3: Verify the API is Enabled
+## Step 4: Verify the API is Enabled
 
 Return to the **Enabled APIs & Services** page to confirm the Service Usage API is active. Look for **serviceusage.googleapis.com** in the list.
 
@@ -36,26 +51,11 @@ Highlight the Enabled APIs link here.
 
 ---
 
-## Step 4: Check Permissions
-
-Ensure that your account has the necessary permissions to use the Service Usage API. 
-
-1. Navigate to the **IAM & Admin** section of the console.
-2. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
-
-<walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
-Highlight the search bar to help locate IAM & Admin here.
-</walkthrough-spotlight-pointer>
-
-**Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the search functionality if you cannot locate it directly.
-
----
-
 ## Step 5: Check Service Usage API Status
 
 1. Go to **Enabled APIs & Services**.
 2. In the list of APIs, confirm the **Service Usage API** is active.
-3. If it is not enabled, return to Step 2 to enable it.
+3. If it is not enabled, return to Step 3 to enable it.
 
 <walkthrough-spotlight-pointer cssSelector="nav-item-link[title='Enabled APIs & Services']">
 Highlight the Enabled APIs link here.
