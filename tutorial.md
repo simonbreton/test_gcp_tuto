@@ -26,7 +26,7 @@ Ensure that you have the necessary permissions to manage APIs and services withi
 
 1. Open the [**IAM & Admin**](https://console.cloud.google.com/iam-admin)
 2.
-<walkthrough-spotlight-pointer cssSelector="[_ngcontent-ng-c2295059878]">
+<walkthrough-spotlight-pointer cssSelector="[_ngcontent-ng-c2295059878][cfc-filter]">
 Use the email filter to quickly find your account.
 </walkthrough-spotlight-pointer>
 4. Verify that your account has one of the following roles:
