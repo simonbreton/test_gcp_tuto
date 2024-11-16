@@ -4,7 +4,7 @@
 
 Ensure that your account has the necessary permissions to use the Service Usage API. 
 
-1. Navigate to the [**IAM & Admin**](https://console.cloud.google.com/iam-admin) section of the console.
+1. Navigate to the [**IAM & Admin**](https://console.cloud.google.com/iam-admin?tab=0) section of the console.
 2. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
 
 <walkthrough-spotlight-pointer sandboxuid="4">
@@ -92,3 +92,4 @@ Highlight the search bar to locate Billing here.
 **Annotation:** The Billing section shows all linked billing accounts. Confirm the status is "active" and linked to the correct project.
 
 ---
+
