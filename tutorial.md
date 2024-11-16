@@ -7,11 +7,11 @@ Ensure that your account has the necessary permissions to use the Service Usage 
 1. Navigate to the [**IAM & Admin**](https://console.cloud.google.com/iam-admin) section of the console.
 2. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
 
-<walkthrough-spotlight-pointer cssSelector="#pcc-search-container">
-Highlight the search bar to help locate IAM & Admin here.
+<walkthrough-spotlight-pointer sandboxuid="4">
+Highlight the email filter option here to quickly locate your account.
 </walkthrough-spotlight-pointer>
 
-**Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the search functionality if you cannot locate it directly.
+**Annotation:** The "IAM & Admin" section is found in the left-hand menu. Use the email filter option to simplify searching for your account.
 
 ---
 
