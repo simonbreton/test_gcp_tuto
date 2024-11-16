@@ -5,8 +5,9 @@
 Ensure that your account has the necessary permissions to use the Service Usage API. 
 
 1. From the [**GCP Homepage**](https://console.cloud.google.com/), locate the left-hand menu.
-2. Click on **IAM & Admin** to open the IAM page.
-3. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
+2. [**GCP Homepage**](https://console.cloud.google.com/iam-admin)
+3. Click on **IAM & Admin** to open the IAM page.
+4. Look for your account in the list of members and confirm it has the `roles/serviceusage.viewer` or `roles/owner` role.
 
 <walkthrough-spotlight-pointer sandboxuid="4">
 Highlight the email filter option here to quickly locate your account.
